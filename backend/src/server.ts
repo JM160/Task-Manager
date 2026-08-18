@@ -14,7 +14,7 @@ interface Task {
 }
 
 // 1. CREATE: Create a new task
-app.post('/task', async (req: Request, res: Response) => {
+app.post('/tasks', async (req: Request, res: Response) => {
     const {title, description} = req.body;
 
     try {
