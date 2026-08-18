@@ -1,0 +1,23 @@
+### Criar uma nova tarefa (CREATE)
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "title": "Finalizar exercícios práticos do Módulo 15",
+  "description": "Configurar o banco SQLite e criar as queries do projeto"
+}
+
+###
+
+### Listar todas as tarefas (READ)
+GET http://localhost:3000/tasks
+
+###
+
+### Marcar a tarefa de ID 1 como concluída (UPDATE)
+PUT http://localhost:3000/tasks/2/complete
+
+###
+
+### Excluir a tarefa de ID 1 (DELETE)
+DELETE http://localhost:3000/tasks/2
