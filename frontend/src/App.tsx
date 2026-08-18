@@ -295,13 +295,13 @@ function App() {
 
         {/* Footer */}
         <footer className="mt-8 text-center text-slate-500 dark:text-slate-400 text-sm 2xl:text-base">
-          <p>&copy; {new Date().getFullYear()} jmath. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} JM160. Todos os direitos reservados.</p>
           <div className="flex justify-center gap-4 mt-2">
-            <a href="mailto:contato@exemplo.com" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Email</a>
+            <a href="mailto:jmatheus.andrade1507@gmail.com" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Email</a>
             <span>•</span>
-            <a href="https://github.com/jmath" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">GitHub</a>
+            <a href="https://github.com/JM160" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">GitHub</a>
             <span>•</span>
-            <a href="https://linkedin.com/in/jmath" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">LinkedIn</a>
+            <a href="https://linkedin.com/in/jm160" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">LinkedIn</a>
           </div>
         </footer>
       </div>
