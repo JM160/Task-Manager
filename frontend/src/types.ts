@@ -3,4 +3,7 @@ export interface Task {
   title: string;
   description: string;
   is_completed: boolean;
+  created_at: string;
+  due_date?: string | null;
+  completed_at?: string | null;
 }
